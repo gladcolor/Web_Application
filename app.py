@@ -8,6 +8,21 @@ from .models import Cats, db
 app = create_app()
 
 
+@app.route('/f1', methods=['GET'])
+def fetch1():
+    cats = Cats.query().limit(2)
+    all_cats = []
+    for cat in cats:
+        new_cat = {
+            "id": cat.id,
+            "name": cat.name,
+            "price": cat.price,
+            "breed": cat.breed
+        }
+
+        all_cats.append(new_cat)
+    return json.dumps(all_cats), 200
+
 @app.route('/', methods=['GET'])
 def fetch():
     cats = Cats.query.all()
