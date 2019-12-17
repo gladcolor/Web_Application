@@ -9,4 +9,7 @@ if __name__ == '__main__':
     # run app
     
     # Test part2
-    app.run()
+    # app.run()
+
+    # part 3
+    app.run(host='0.0.0.0', port=port)

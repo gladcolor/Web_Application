@@ -24,10 +24,6 @@ class Production(object):
 
 
 
-}
-
-
-
 class Testing(object):
     """
     Development environment configuration
