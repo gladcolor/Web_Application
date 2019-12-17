@@ -59,6 +59,8 @@ class UserModel(db.Model):
         print(password)
         return bcrypt.check_password_hash(self.password, password)
 
+
+
     @staticmethod
     def get_all_users():
         return UserModel.query.all()
