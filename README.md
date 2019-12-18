@@ -4,7 +4,7 @@ For IS601
 Part3
 
 Website: [http://web-application-part3-huan.herokuapp.com/](http://web-application-part3-huan.herokuapp.com/)
-![](Screenshots/part3_1.png)
+![](screenshots/part3_1.png)
 
 export port=5432
 
