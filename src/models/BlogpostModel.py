@@ -14,12 +14,14 @@ class BlogpostModel(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(128), nullable=False)
     contents = db.Column(db.Text, nullable=False)
+    owner_id = db.Column(db.Integer, nullable=False)
     created_at = db.Column(db.DateTime)
     modified_at = db.Column(db.DateTime)
 
     def __init__(self, data):
         self.title = data.get('title')
         self.contents = data.get('contents')
+        self.owner_id = data.get('owner_id')
         self.created_at = datetime.datetime.utcnow()
         self.modified_at = datetime.datetime.utcnow()
 
