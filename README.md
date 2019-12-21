@@ -41,3 +41,7 @@ export JWT_SECRET_KEY=hhgaghhgsdhdhdd
 
 ## Get one post (GET)
 ![](screenshots/get_one.png)
+
+
+## Update a post (PUT)
+![](screenshots/updatepost.png)
