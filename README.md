@@ -10,3 +10,5 @@ export DATABASE_URL=postgres://postgres:passwd@localhost:5432/mydb
 export JWT_SECRET_KEY=hhgaghhgsdhdhdd
 export port=5000
 ```
+
+![](/results/part1.png)
