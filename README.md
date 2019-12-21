@@ -45,3 +45,8 @@ export JWT_SECRET_KEY=hhgaghhgsdhdhdd
 
 ## Update a post (PUT)
 ![](screenshots/updatepost.png)
+
+
+## Delete a post (DELETE)
+![](screenshots/delete.png)
+
