@@ -16,4 +16,4 @@ Flask-Bcrypt = "*"
 PyJWT = "*"
 
 [requires]
-python_version = "3.6.9"
+python_version = "3.7.5"

@@ -3,9 +3,10 @@ For IS601
 
 
 Run the following from your terminal to set system environment variables:
-
+ 
+```python
 export FLASK_ENV=development
-
-export DATABASE_URL=postgres://name:password@houst:port/blog_api_db
-
-export JWT_SECRET_KEY=hhgaghhgsdhdhdd
+export DATABASE_URL=postgres://postgres:passwd@localhost:5432/mydb
+export JWT_SECRET_KEY= hhgaghhgsdhdhdd
+export port=5432
+```
