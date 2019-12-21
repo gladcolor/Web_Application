@@ -27,3 +27,5 @@ export JWT_SECRET_KEY=hhgaghhgsdhdhdd
 ![](screenshots/post.png)
 
 ![](screenshots/login.png)
+
+![](screenshots/newblog.png)
