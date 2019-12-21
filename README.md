@@ -21,11 +21,19 @@ export JWT_SECRET_KEY=hhgaghhgsdhdhdd
 
 ```
 
-![](screenshots/put.png)
-
+## New user (POST)
 
 ![](screenshots/post.png)
 
+## Change user name (PUT)
+![](screenshots/put.png)
+
+
+## User login (POST)
 ![](screenshots/login.png)
 
+## New posts (POST)
 ![](screenshots/newblog.png)
+
+## Get posts (GET)
+![](screenshots/getblogs.png)
