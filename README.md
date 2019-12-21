@@ -37,3 +37,7 @@ export JWT_SECRET_KEY=hhgaghhgsdhdhdd
 
 ## Get posts (GET)
 ![](screenshots/getblogs.png)
+
+
+## Get one post (GET)
+![](screenshots/get_one.png)
